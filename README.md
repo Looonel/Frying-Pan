@@ -38,16 +38,12 @@ Then open Android Studio, select the cloned project's folder, and press OK
 **Step 1** - Go to [https://console.firebase.google.com](https://console.firebase.google.com) 
 and create a new project.
 
-**Step 2** - Inside your new project, add an Android app with the 
-following package name:
-```
-com.example.sievepoc_app
-```
+**Step 2** - Inside your Android Studio, locate the "Tools" window, click the Firebase button,
+search for Cloud Firestore and press the button that says "Get started with Cloud Firestore"
 
-**Step 3** - Download the google-services.json file (you can find it in the settings of your new project) 
-and place it inside the app/ directory of the project
+**Step 3** - Connect your app to the database and add the Cloud Firestore SDK to your app
 
-**Step 4** - Go to Firestore Database in the Firebase Console 
+**Step 4** - Go back to Firestore Database in the Firebase Console 
 and create a database. Then create a new collection called "Credentials"
 
 **Step 5** - Set your Firestore rules to allow reading and writing to anyone (for testing)
